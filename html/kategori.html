@@ -8,7 +8,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>DigiSkill |Platform Untuk Raih karir impian</title>
+    <title>DigiSkill | Kelas UI/UX Design</title>
 
     <meta name="description" content="" />
 
@@ -111,18 +111,17 @@
                 <ul class="navbar-nav ms-auto gap-3">
 
                     <li class="nav-item">
-                        <a class="nav-link active text-primary fw-semibold fs-6" aria-current="page"
-                            href="#">Beranda</a>
+                        <a class="nav-link   fs-6" href="#">Beranda</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-6" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle fs-6 active" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Kategori Kelas
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item fs-6" href="#">UI/UX Design</a>
+                                <a class="dropdown-item  active fs-6" aria-current="page" href="#">UI/UX Design</a>
                             </li>
                             <li>
                                 <a class="dropdown-item fs-6" href="#">Front-End-Developer</a>
@@ -134,14 +133,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="tentang-kami.html">Tentang Kami</a>
+                        <a class="nav-link fs-6" href="#">Tentang Kami</a>
                     </li>
 
-                    <a href="login.html" type="button" class="btn btn-outline-primary">Masuk</a>
-                    <a href=""></a>
-                    <a href="regis.html" class="btn btn-primary">
-                        Daftar
-                    </a>
+                    <button type="button" class="btn btn-outline-primary">Masuk</button>
+                    <button type="button" class="btn btn-primary">Daftar</button>
                 </ul>
             </div>
         </div>
@@ -156,17 +152,19 @@
         <div class="HERO row my-5">
             <!-- img -->
             <div class="col-md-6 d-flex justify-content-center  order-md-2 order-lg-last">
-                <img class="img w-100" src="../assets/img/illustrations/Hero 1.svg" alt=""
+                <img class="img w-75" src="../assets/img/illustrations/Hero 1.svg" alt=""
                     class="justify-content-center" />
             </div>
             <!-- ENd img -->
 
             <!-- text section -->
+
             <div class="col-md-6 d-flex align-items-center authentication-inner">
                 <div>
-                    <p class="mt-5 fs-1 fw-bold">
-                        <span class=" text-black">Raih</span> <span class="text-primary">karir</span> <span
-                            class=" text-black">impian</span> <span class=" text-black">untuk masa depan</span>
+                    <p class="fs-5 fw-bold badge bg-label-primary">UI/UX Design</p>
+                    <p class=" fs-1 fw-bold">
+                        <span class=" text-black">Belajar Materi</span> <span class="text-primary">UI/UX Design</span>
+
                         <span class=" text-black">bersama</span> <span class="text-primary">DigiSkill</span>
 
                     </p>
@@ -174,145 +172,53 @@
                         Dapatkan pekerjaan impianmu untuk masa <br> depanmu, bersama kami anda
                         akan mendapatkan pelatihan secara gratis dan terbaik.
                     </p>
-                    <div class="btn btn-primary mt-1 btn-lg px-3">Belajar Sekarang</div>
+
+
+                    <div class="d-flex gap-2 align-content-center ">
+                        <!-- Icon Dropdown -->
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-primary dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class='bx bx-filter'></i>
+                            </button>
+                            <ul class="dropdown-menu p-3">
+                                <div class="mb-2">
+                                    <p class="fs-5 fw-semibold ">Filter</p>
+                                    <div class="form-check mt-3">
+                                        <input class="form-check-input" type="checkbox" value="" id="terbaru" />
+                                        <label class="form-check-label fs-6" for="terbaru"> Terbaru </label>
+                                    </div>
+                                    <div class="form-check mt-3">
+                                        <input class="form-check-input" type="checkbox" value="" id="populer" />
+                                        <label class="form-check-label fs-6" for="populer"> Populer </label>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </div>
+
+                        <!--/ Icon Dropdown -->
+                        <div class="input-group input-group-merge">
+                            <span class="input-group-text" id="carimentor"><i class="bx bx-search"></i></span>
+                            <input type="search" id="form1" class="form-control"
+                                placeholder="Cari kelas UI/UX Design..." aria-label="Search" />
+                        </div>
+                        <button type="submit" class="btn btn-primary  px-3">Cari </button>
+                    </div>
+
+
                 </div>
             </div>
         </div>
     </div>
     <!-- END HERO -->
 
-    <!-- START VALUE 1 -->
-    <div class="container rounded-2 mb-5  py-5"">  
-    <!-- <p class=" text-center text-white fs-1 fw-bold lh-1 mb">
-        Dapatkan Skill Baru <br> Bersama <span class=""> DigiSkill</span>
-        </p> -->
-        <p class="text-center text-black fs-1 fw-bold lh-sm mb-3">
-            Dapatkan Skill Baru <br> Bersama <span class=""> DigiSkill</span>
-        </p>
-        <br>
-
-        <div class="row content-value   mt-3 rounded">
-
-            <div class="col-md-4 ">
-                <div class="d-flex gap-3">
-                    <img src="../assets/img/icons/unicons/online-meeting (1).png"
-                        class="img mb-4 p-3 bg-primary rounded" alt="" />
-
-                    <div class="d-flex flex-column g-0 justify-content-start ">
-                        <p class="fw-bold fs-5 text-black">4 Ribu Peserta</p>
-
-                        <p class="lh-sm fs-6 mt-0 text-black">
-                            Banyak Peserta Tergabung
-                            Bersama DigiSkill
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 ">
-                <div class="d-flex gap-3">
-                    <img src="../assets/img/icons/unicons/online-test 1.svg" class="img mb-4 p-3 bg-primary rounded"
-                        alt="" />
-
-                    <div class="d-flex flex-column g-0 justify-content-start ">
-                        <p class="fw-bold fs-5 text-black">25+ Mentor Berpengalaman</p>
-
-                        <p class="lh-sm fs-6 mt-0 text-black">
-                            Puluhan mentor siap membantu anda mengembangkan keahlianmu
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 ">
-                <div class="d-flex gap-3">
-                    <img src="../assets/img/icons/unicons/paypal.png" class="img mb-4 p-3 bg-primary rounded" alt="" />
-
-                    <div class="d-flex flex-column g-0 justify-content-start ">
-                        <p class="fw-bold fs-5 text-black">Banyak Pilihan Kelas</p>
-
-                        <p class="lh-sm fs-6 mt-0 text-black">
-                            Tersedia banyak Video Kelas Pilihan
-                            Terbaik Untuk Anda
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-    <!-- END VALUE 1 -->
-
-    <!-- START VALUE 2 -->
-    <div class="container-fluid bg-label-primary text-black">
-        <div class="container py-5">
-            <div class="HERO row my-5">
-                <!-- img -->
-                <div class="col-md-6 d-flex justify-content-start  authentication-inner">
-                    <img class="img w-100" src="../assets/img/illustrations/Hero 3.svg" alt=""
-                        class="justify-content-center" />
-                </div>
-                <!-- ENd img -->
-
-                <!-- text section -->
-                <div class="col-md-6 d-flex align-items-center authentication-inner">
-                    <div>
-                        <p class="mt-5 fs-1 fw-bold">
-
-                            <span class=" text-black">Mengapa Harus</span> <span class="text-primary">DigiSkill?</span>
-
-                        </p>
-                        <p class="fs-5 text-black">
-                            DigiSkill merupakan program persiapan kerja terbaik yang mendampingi peserta dari awal
-                            dengan banyak pilihan materi
-                        </p>
-                        <div class="row text-black">
-                            <div class="col-md-6 gap-5">
-                                <div class="d-flex gap-2 align-items-start">
-                                    <i class='bx bx-check-square bx-md'></i>
-                                    <p class="fs-5">Pembelajaran Gratis, Tanpa Dipunggut Biaya</p>
-                                </div>
-                                <div class="d-flex gap-2 align-items-start">
-                                    <i class='bx bx-check-square bx-md'></i>
-                                    <p class="fs-5">Tersedia Banyak Materi Yang Tersetruktur</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex gap-2 align-items-start">
-                                    <i class='bx bx-check-square bx-md'></i>
-                                    <p class="fs-5">Mentor Yang Berpengalaman </p>
-                                </div>
-                                <div class="d-flex gap-2 align-items-start">
-                                    <i class='bx bx-check-square bx-md'></i>
-                                    <p class="fs-5">Materi Yang Uptudate Selalu</p>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END VALUE 2 -->
 
 
 
-
-    <!-- Start Card Produk -->
-
+    <!-- START CARD CLASS-->
     <div class="container mt-5">
-        <div class="row text-center mx-4 mx-md-5 text-center">
-            <p class="fw-bold fs-1">Program Kelas Terbaik <span class="text-primary"> DigiSkill?</span></p>
-            <p class="fs-5">
-                DigiSKill menyediakan kelas pilihan terbaik untuk meningkakan keahlian
-                anda
-            </p>
-        </div>
-
         <div class="row mt-5 justify-content-center">
 
             <div class="col-lg-4 col-md-6 mb-4 rounded ">
@@ -416,183 +322,23 @@
                 </div>
             </div>
         </div>
-
     </div>
-    <!-- End Card Produk -->
+
+    <!-- END CARD -->
 
 
-    <!-- Start Testimoni -->
-    <div class="container-fluid container-review vp-1 my-5 mb-4 mb-md-5 py-md-5">
-        <div class="container container-value">
-            <div class="row">
-                <div class="col">
-                    <p class="text-center mt-5 fs-1 fw-bold">
-                        Apa Kata Mereka Tentang <br> Kelas di <span class="text-primary">DigiSkill</span> ?
-                    </p>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <!-- Bootstrap carousel -->
-
-                <!-- Bootstrap crossfade carousel -->
-                <div class="col-md">
 
 
-                    <div id="carouselTes" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-                        <!-- <ol class="carousel-indicators">
-                            <li data-bs-target="#carouselTes" data-bs-slide-to="0" class="active"></li>
-                            <li data-bs-target="#carouselTes" data-bs-slide-to="1"></li>
-                            <li data-bs-target="#carouselTes" data-bs-slide-to="2"></li>
-                        </ol> -->
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="d-block w-100 text-center">
-                                    <div class="mb-5 ">
-                                        <i class='bx bxs-quote-right bx-lg mb-2 text-primary'></i>
-                                        <p class="lead font-italic px-4 mx-md-5">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                                            explicabo rem dolorum, quas
-                                        </p>
-                                        <div class="my-3">
-                                            <img src="../assets/img/avatars/1.png"
-                                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image"
-                                                width="100" height="100" />
-                                        </div>
-                                        <p class="text-primary fs-5 fw-bold">Ferdy Putra</p>
-                                        <p class="text-secondary mt-n3 fs-5 fw-light">UI/UX Designer PT.
-                                            Tokopedia</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="d-block w-100 text-center">
-                                    <div class="mb-5 ">
-                                        <i class='bx bxs-quote-right bx-lg mb-2 text-primary'></i>
-                                        <p class="lead font-italic px-4 mx-md-5">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                                            explicabo rem dolorum, quas magnam corrupti incidunt beatae s
-                                        </p>
-                                        <div class="my-3">
-                                            <img src="../assets/img/avatars/7.png"
-                                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image"
-                                                width="100" height="100" />
-                                        </div>
-                                        <p class="text-primary fs-5 fw-bold">Ginanjar Putra</p>
-                                        <p class="text-secondary mt-n3 fs-5 fw-light">UI/UX Designer PT.
-                                            Tokopedia</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="d-block w-100 text-center">
-                                    <div class="mb-5 ">
-                                        <i class='bx bxs-quote-right bx-lg mb-2 text-primary'></i>
-                                        <p class="lead font-italic px-4 mx-md-5">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                                            explicabo rem dolorum, quas magnam corrupti incidunt beatae sunt
-                                            aliquid qui. Maiores, nulla, animi saepe explicabo impedit .
-                                        </p>
-                                        <div class="my-3">
-                                            <img src="../assets/img/avatars/5.png"
-                                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image"
-                                                width="100" height="100" />
-                                        </div>
-                                        <p class="text-primary fs-5 fw-bold">Vina Putra</p>
-                                        <p class="text-secondary mt-n3 fs-5 fw-light">UI/UX Designer PT.
-                                            Tokopedia</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="d-block w-100 text-center">
-                                    <div class="mb-5 ">
-                                        <i class='bx bxs-quote-right bx-lg mb-2 text-primary'></i>
-                                        <p class="lead font-italic px-4 mx-md-5">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                                            explicabo rem dolorum, quas magnam corrupti incidunt beatae sunt
-                                            aliquid qui. Maiores, nulla, animi saepe explicabo impedit .
-                                        </p>
-                                        <div class="my-3">
-                                            <img src="../assets/img/avatars/6.png"
-                                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image"
-                                                width="100" height="100" />
-                                        </div>
-                                        <p class="text-primary fs-5 fw-bold">Vira Ginanjar</p>
-                                        <p class="text-secondary mt-n3 fs-5 fw-light">UI/UX Designer PT.
-                                            Tokopedia</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="">
-                            <a class="carousel-control-prev ps-lg-5 pt-5" href="#carouselTes" role="button"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </a>
-                            <a class="carousel-control-next ps-lg-5 pt-5" href="#carouselTes" role="button"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
 
 
 
     </div>
-    <!-- End Testimoni -->
 
+    <!-- Start Footer -->
 
-    <!-- START CTA -->
-    <div class="container-fluid  py-5">
-        <div class="container mt-lg-5  ">
-            <div class="HERO row mt-5">
-                <!-- img -->
-                <div class="col-md-6 d-flex justify-content-center  order-md-2 order-lg-last">
-                    <img class="img w-100" src="../assets/img/illustrations/Hero 1.svg" alt=""
-                        class="justify-content-center" />
-                </div>
-                <!-- ENd img -->
-
-                <!-- text section -->
-                <div class="col-md-6 d-flex align-items-center authentication-inner">
-                    <div>
-                        <p class="mt-5 fs-1 fw-bold">
-                            <span class=" text-black">Bersiap </span> <span class="text-primary">Belajar</span> <span
-                                class=" text-black"> </span> <span class=" text-black">untuk masa depan</span>
-                            <span class=" text-black">bersama</span> <span class="text-primary">DigiSkill</span>
-
-                        </p>
-                        <p class="fs-5 text-black">
-                            Dapatkan pekerjaan impianmu untuk masa <br> depanmu, bersama kami anda
-                            akan mendapatkan pelatihan secara gratis dan terbaik.
-                        </p>
-                        <div class="btn btn-primary mt-1 btn-lg px-3">Belajar Sekarang</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br><br>
-
-    <!-- END CTA -->
-
-    </div>
-
-
-
-    <footer class="card">
-        <div class="container mt-5">
-            <div class="row row-content justify-content-between  justify-content-md-start">
+    <footer class="card mt-5">
+        <div class="container mt-4">
+            <div class="row row-content justify-content-between justify-content-md-start">
                 <div class="col-lg-4 col-md-6 mb-sm-4">
                     <a href="#" class="app-brand-link">
                         <span class="app-brand-logo demo">
@@ -647,16 +393,16 @@
                     <div class="d-flex gap-3">
 
                         <a href="https://www.instagram.com/ginanjar_putra22/" target="_blank">
-                            <i class='tf-icons bx bxl-instagram-alt bx-sm btn btn-icon bx-md nav-link'></i>
+                            <i class='tf-icons bx bxl-instagram-alt bx-sm btn btn-icon bx-md'></i>
                         </a>
                         <a href="https://www.instagram.com/ginanjar_putra22/" target="_blank">
-                            <i class='tf-icons bx bxl-facebook-square bx-sm btn btn-icon bx-md nav-link'></i>
+                            <i class='tf-icons bx bxl-facebook-square bx-sm btn btn-icon bx-md'></i>
                         </a>
                         <a href="https://www.instagram.com/ginanjar_putra22/" target="_blank">
-                            <i class='tf-icons bx bxl-youtube bx-sm btn btn-icon bx-md nav-link'></i>
+                            <i class='tf-icons bx bxl-youtube bx-sm btn btn-icon bx-md'></i>
                         </a>
                         <a href="https://www.instagram.com/ginanjar_putra22/" target="_blank">
-                            <i class='tf-icons bx bxl-linkedin-square bx-sm btn btn-icon bx-md nav-link'></i>
+                            <i class='tf-icons bx bxl-linkedin-square bx-sm btn btn-icon bx-md'></i>
                         </a>
 
                     </div>
@@ -743,9 +489,6 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-    <!-- MDB -->
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script> -->
 </body>
 
 </html>
